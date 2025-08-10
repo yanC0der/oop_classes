@@ -1,42 +1,25 @@
-## oop_classes
+# OOP Classes
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This shows the implementation of classes in Dart/Flutter. It includes:
 
-Prerequisites- the packages ya will need:
-Dart SDK
-Flutter SDK
-Git
-VS Code or any preferred IDE
+- A simple "ClassName" class with properties and methods
+- Integratiion of the class with the Flutter application
 
-## Project Setup
 
-1. Clone the Repository
-Copy code - git clone https://github.com/your-leader/oop_classes.git
-            cd oop_classes
+## Class Structure
 
-2. Create a New Branch
-Each member should create a unique branch for their class:
-git checkout -b feature/<ClassName>
+The main class imlementation "ClassName" include the following:
 
-3. Design Your Class
-Create a new Dart file in the lib directory:
+- Properties: `model` (String) and `age` (int)
+- Constructor for initializing the properties
+- A `describe()` method that prints the object's properties
 
-lib/className1.dart
+## How to Use
 
-Define your class with at least 2 properties and 1 method.
-Use a parameterized constructor.
-example:
+1. Clone this repository you can run `git clone https://github.com/your-username/oop_classes.git` on ur terminal
 
-class ClassName3 {
-  String model;
-  int age;
+2. Run `flutter pub get` to install dependencies/packages to avoid errors
 
-  ClassName3(this.model, this.age);
-
-  void describe() {
-    print('Model: $model, Age: $age');
-    print('HEHEHEHEHEHEHEHEHEE.');
-  }
-}
+3. Run the app using `flutter run` to check the outpput if it will run or not
