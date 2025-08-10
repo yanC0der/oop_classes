@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'className3.dart';
 
 void main() {
   runApp(const MyApp());
+
+  var className = ClassName3('AbePurisima', 19);
+  className.describe();
 }
 
 class MyApp extends StatelessWidget {
