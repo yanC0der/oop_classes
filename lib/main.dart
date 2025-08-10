@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'classname2.dart';
 
 void main() {
   runApp(const MyApp());
+
+  var className = ClassName('Dio', 22);
+  className.describe();
 }
 
 class MyApp extends StatelessWidget {
