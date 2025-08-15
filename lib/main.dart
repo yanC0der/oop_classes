@@ -6,7 +6,7 @@ void main() {
   runApp(const MyApp());
 
   var className = ClassName('Abe', 20);
-  var className = ClassName3('AbePurisima', 19)
+  var className3 = User('Ako to si Natoy', 99999912312);
   className.describe();
 }
 

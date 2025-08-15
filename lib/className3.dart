@@ -1,11 +1,11 @@
-class ClassName3 {
-  String model;
-  int age;
+class User {
+  String name;
+  int id;
 
-  ClassName3(this.model, this.age);
+  User(this.name, this.id);
 
   void describe() {
-    print('Model: $model, Age: $age');
+    print('Name: $name, ID: $id');
     print('HEHEHEHEHEHEHEHEHEE.');
   }
 }
