@@ -5,6 +5,6 @@ class College {
   College(this.school, this.campus);
 
   void describe() {
-    print('Model: $school, Age: $campus');
+    print('University School: $school, Campus: $campus');
   }
 }
