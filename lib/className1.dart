@@ -1,11 +1,10 @@
-class ClassName {
-  String model;
-  int age;
+class College {
+  String school;
+  String campus;
 
-  ClassName(this.model, this.age);
+  College(this.school, this.campus);
 
   void describe() {
-    print('Model: $model, Age: $age');
-    print('A very demure dude.');
+    print('Model: $school, Age: $campus');
   }
 }
