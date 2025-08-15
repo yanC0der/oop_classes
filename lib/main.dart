@@ -7,7 +7,7 @@ import 'className4.dart';
 void main() {
   runApp(const MyApp());
 
-  var className1 = ClassName('Abe', 20);
+  var className1 = College('STCS', 'Main Campus');
   var className2 = ClassName3('AbePurisima', 19);
   var className3 = ClassName2('Dio', 22);
   var className4 = ProbablyAClassname('Abrams Tank', 21);
