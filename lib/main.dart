@@ -8,7 +8,7 @@ void main() {
   runApp(const MyApp());
 
   var className1 = College('STCS', 'Main Campus');
-  var className2 = ClassName3('AbePurisima', 19);
+  var className2 = User('Ako si Natoy', 857834588);
   var className3 = ClassName2('Dio', 22);
   var className4 = ProbablyAClassname('Abrams Tank', 21);
   className1.describe();
